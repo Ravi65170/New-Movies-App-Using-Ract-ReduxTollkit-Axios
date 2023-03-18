@@ -1,0 +1,60 @@
+.Container {
+  margin: auto;
+  height: 79vh;
+  width: 500px;
+  max-width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.Container form {
+  width: 100%;
+  height: 70%;
+  padding: 20px;
+  color: aliceblue;
+
+  border-radius: 4px;
+  box-shadow: 0 0 16px whitesmoke;
+}
+
+.Container form h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.Container form .box {
+  width: 100%;
+  height: 40px;
+  background: white;
+  border-radius: 4px;
+  border: 3px solid rgb(111, 118, 114);
+  text-align: center;
+  margin: 10px 0 18px 0;
+  padding: 0 10px;
+}
+
+.Container form .btn-r {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 27px;
+  border: none;
+  outline: white;
+  background: green;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}
+.Container form .btn-l {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 10px;
+  width: 40%;
+  height: 27px;
+  border: none;
+  outline: white;
+  background: rgb(48, 146, 178);
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}

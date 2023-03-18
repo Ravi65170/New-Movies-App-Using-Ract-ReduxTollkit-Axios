@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import PageNotFound from "./components/PageNotFound/PageNotFound";
 import MovieDetail from "./components/MovieDetail/MovieDetail";
+import Registration from "./components/Registration/registration";
 import "./App.scss";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/movie/:imdbID" element={<MovieDetail />} />
+            <Route path="/registration" element={<Registration />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </div>
